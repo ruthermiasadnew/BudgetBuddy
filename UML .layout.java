@@ -1,4 +1,4 @@
-// ✅ UML DESIGN FOR BUDGETBUDDY APP
+//  UML DESIGN FOR BUDGETBUDDY APP
 // With superclass/subclasses, and all that clean OOP goodness
 
 // SUPERCLASS
@@ -86,8 +86,8 @@ public class BudgetTracker {
 
     public String getStatus() {
         double balance = getBalance();
-        if (balance < 100) return "🔴 Red Zone";
-        if (balance < 500) return "🟡 Yellow Zone";
+        if (balance < 100) return "🔴 Red Zone"; //also it doesn't have to be 100 its like if its like below 15% of your mothly income
+        if (balance < 500) return "🟡 Yellow Zone"; // same thing no set amount but based on percentages 
         return "🟢 Green Zone";
     }
 }
